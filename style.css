@@ -10,16 +10,8 @@
 {
     height: 100vh;
     width: 100%;
-    background-image: url(images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
-    background-position: right;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-    position: relative;
-    background-blend-mode: multiply;
-    background-blend-mode: lighten;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .navbar
@@ -75,7 +67,7 @@ nav ul li a
 {
     margin-left: 10%;
     margin-top: 10%;
-    width: 40%;
+    width: 35%;
 }
 
 .content .btn
@@ -84,6 +76,7 @@ nav ul li a
     background: linear-gradient(45deg, #87adfe, #ff77cd);
     border-radius: 6px;
     padding: 10px 20px;
+    margin-top: 5%;
     box-sizing: border-box;
     text-decoration: none;
     color:#ffff;
@@ -94,4 +87,34 @@ nav ul li a
 {
     margin-top: 40px;
     display: flex;
+}
+
+.arrow-icons img 
+{
+    width: 40px;
+    margin-right: 200px;
+}
+
+.feature-img
+{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 50%;
+}
+
+.socialMedia
+{
+    position:absolute;
+    left: 12%;
+    bottom: 180px;
+}
+
+.socialMedia a
+{
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 20px;
 }
